@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="My house building project" company="Myself LLC" webLink="www.myselfllc.net" view-date="2007-12-03" view-index="0" gantt-divider-location="369" resource-divider-location="322" version="2.0">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart"/>
+    <view id="resource-table">
+        <field id="0" name="Nome" width="54" order="0"/>
+        <field id="1" name="Ruolo predefinito" width="45" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <calendar id="1" name="default">
+                <default-week sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+                <overriden-day-types/>
+                <days/>
+            </calendar>
+        </day-types>
+        <date year="2006" month="2" date="14"/>
+    </calendars>
+    <tasks color="#99ccff">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Prog" color="#8cb6ce" meeting="false" start="2007-12-27" duration="54" complete="36" priority="0" expand="true">
+            <task id="9" name="Studio del funzionamento" color="#99ccff" meeting="false" start="2007-12-27" duration="10" complete="100" priority="1" expand="true">
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="10" name="Studio Google" color="#99ccff" meeting="false" start="2008-01-10" duration="15" complete="65" priority="1" expand="true">
+                <depend id="23" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="23" name="Studio WMS" color="#99ccff" meeting="false" start="2008-01-31" duration="5" complete="0" priority="1" expand="true">
+                <depend id="25" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="25" name="Studio di fattibilità" color="#99ccff" meeting="false" start="2008-02-07" duration="2" complete="0" priority="1" expand="true">
+                <depend id="24" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="24" name="Progettazione" color="#99ccff" meeting="false" start="2008-02-11" duration="7" complete="0" priority="1" expand="true">
+                <depend id="22" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="22" name="Implementazione e testing" color="#99ccff" meeting="false" start="2008-02-20" duration="15" complete="0" priority="1" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="1" name="Jack House" function="Default:1" contacts="jack.house@myselfllc.net" phone="0044 077345456"/>
+        <resource id="0" name="John Black" function="4" contacts="john.black@myselfllc.net" phone="+44 0794353567"/>
+        <resource id="2" name="Michelangelo" function="0" contacts="mickelangelo@heaven.net" phone="078 9059056"/>
+        <resource id="3" name="Tom White" function="1" contacts="tom.white@myselfllc.net" phone="07978978978"/>
+        <resource id="4" name="Peter Green" function="1" contacts="peter.green@myselfllc.net" phone="0797897856"/>
+        <resource id="5" name="George Brown" function="1" contacts="george.brown@myselfllc.net" phone="07967766447"/>
+        <resource id="6" name="John Silver" function="2" contacts="john.silver@myselfllc.net" phone="07778967889"/>
+    </resources>
+    <allocations>
+        <allocation task-id="9" resource-id="2" function="0" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="1" function="Default:1" responsible="false" load="50.0"/>
+        <allocation task-id="10" resource-id="2" function="0" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpd3" order="0" width="117"/>
+        <displaycolumn property-id="tpd4" order="1" width="92"/>
+        <displaycolumn property-id="tpd5" order="2" width="90"/>
+    </taskdisplaycolumns>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="0" name="Architect"/>
+        <role id="1" name="Bricklayer"/>
+        <role id="2" name="Foreman"/>
+        <role id="3" name="Decorator"/>
+        <role id="4" name="Excavator operator"/>
+        <role id="5" name="Roofer"/>
+    </roles>
+</project>
