@@ -1,0 +1,30 @@
+.rtop {
+	DISPLAY: block
+}
+.rbottom {
+	DISPLAY: block
+}
+.rtop  {
+	DISPLAY: block; OVERFLOW: hidden; HEIGHT: 1px
+}
+.rbottom  {
+	DISPLAY: block; OVERFLOW: hidden; HEIGHT: 1px
+}
+.r1 {
+	MARGIN: 0px 5px
+}
+.r2 {
+	MARGIN: 0px 3px
+}
+.r3 {
+	MARGIN: 0px 2px
+}
+.r4 {
+	MARGIN: 0px 1px; HEIGHT: 2px
+}
+.rs1 {
+	MARGIN: 0px 2px
+}
+.rs2 {
+	MARGIN: 0px 1px
+}
