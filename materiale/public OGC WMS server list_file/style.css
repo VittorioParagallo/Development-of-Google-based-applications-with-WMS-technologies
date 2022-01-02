@@ -1,0 +1,30 @@
+.product_group {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN: 2px; VERTICAL-ALIGN: top; PADDING-TOP: 2px
+}
+.news_group {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN: 2px; VERTICAL-ALIGN: top; PADDING-TOP: 2px
+}
+.product_group {
+	WIDTH: 100%
+}
+.news_group {
+	FLOAT: right; WIDTH: 49%
+}
+.product {
+	BORDER-RIGHT: #bbbbbb 1px solid; PADDING-RIGHT: 15px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 15px; FONT-SIZE: smaller; PADDING-BOTTOM: 15px; MARGIN: 5px; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 15px; BORDER-BOTTOM: #bbbbbb 1px solid; BACKGROUND-COLOR: rgb(162,184,205)
+}
+.news {
+	BORDER-RIGHT: #bbbbbb 1px solid; PADDING-RIGHT: 15px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 15px; FONT-SIZE: smaller; PADDING-BOTTOM: 15px; MARGIN: 5px; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 15px; BORDER-BOTTOM: #bbbbbb 1px solid; BACKGROUND-COLOR: rgb(162,184,205)
+}
+.product {
+	
+}
+.news {
+	
+}
+.line {
+	MARGIN: 5px 40px; BORDER-BOTTOM: #cccccc 1px solid
+}
+.clear {
+	CLEAR: both
+}
